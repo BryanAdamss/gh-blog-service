@@ -21,6 +21,7 @@ class AuthController {
   static login = async (req: Request, res: Response) => {
     // 检查username,password
     let { username, password } = req.body
+
     if (!(username && password)) {
       res.status(400).send()
     }
