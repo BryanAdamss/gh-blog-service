@@ -5,11 +5,11 @@
 
 import { Router, Request, Response } from 'express'
 import auth from './auth'
-import admin from './admin'
+import post from './post'
 
 const routes = Router()
 
 routes.use('/auth', auth)
-routes.use('/admin', admin)
+routes.use('/post', post)
 
 export default routes

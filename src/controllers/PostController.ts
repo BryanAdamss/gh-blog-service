@@ -29,6 +29,22 @@ class PostController {
    * @memberof PostController
    */
   static editPostById = async (req: Request, res: Response) => {}
+
+  /**
+   * 创建文章
+   *
+   * @static
+   * @memberof PostController
+   */
+  static newPost = async (req: Request, res: Response) => {}
+
+  /**
+   * 删除文章
+   *
+   * @static
+   * @memberof PostController
+   */
+  static deletePost = async (req: Request, res: Response) => {}
 }
 
 export default PostController
